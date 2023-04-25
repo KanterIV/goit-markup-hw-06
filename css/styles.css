@@ -329,7 +329,7 @@ body {
 
   width: 408px;
   min-height: 576px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
 
   background-color: var(--modal-window-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -346,14 +346,15 @@ body {
 }
 
 .modal-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-
   width: 24px;
   height: 24px;
-  margin-bottom: 24px;
 
   background-color: var(--border-main);
   border: 1px solid rgba(0, 0, 0, 0.1);
